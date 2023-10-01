@@ -13,7 +13,7 @@ nav {
   background-color: #1F2937;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 10rem; 
+  padding: 10px 10rem; 
 }
 .nav-logo > img {
  width: 86px;
@@ -73,6 +73,96 @@ nav {
  margin-top: 5px;
 }
 
+.content {
+  padding: 0px 300px 100px;
+}
 .content > h2 {
   text-align: center;
+  margin: 30px;
 }
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+.content-image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 150px 300px;
+}
+.quote-text { 
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+}
+
+.call_to_action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.call_to_action h3 {
+  padding: 0px;
+  margin: 0px;
+  color: #F9FAF8;
+}
+.call-box {
+  background-color: #3882F6;
+  display: flex;
+  padding: 50px 200px;
+  gap: 50px;
+  border-radius: 7px;
+}
+
+.call-box button {
+  border-radius: 5px;
+  border: solid white;
+  background-color: #3882F6;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.call-box p {
+  color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: #E5E7EB;
+  padding: 20px;
+}
+
